@@ -1,0 +1,32 @@
+POST localhost:80/form
+Content-Type: application/json
+
+{
+  "docType" : "DIPLOMA",
+  "firstName" : "Maxim",
+  "lastName" : "Ivanov"
+}
+
+###
+
+POST localhost:80/form
+Content-Type: application/json
+
+{
+  "docType" : "DEGREE",
+  "firstName" : "Maxim",
+  "lastName" : "Ivanov"
+}
+
+###
+
+POST localhost:80/form
+Content-Type: application/json
+
+{
+  "docType" : "CERTIFICATE",
+  "firstName" : "Maxim",
+  "lastName" : "Ivanov"
+}
+
+###
